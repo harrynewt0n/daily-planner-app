@@ -44,3 +44,7 @@ $('.saveBtn').on('click', function () {
 
 // Ensure that local storage remains on application text field- localstorage.getitem
 
+$('textarea').each(function () {
+    var scheduleHour = $(this).siblings('.hour').text();
+    $(this).val(localStorage.getItem(scheduleHour));
+})
