@@ -11,7 +11,7 @@ https://harrynewt0n.github.io/daily-planner-app/
 
 This should open up at webpage that looks like this:
 
-![Screenshot of deployed work day scheduler](<Deployed application.png>)
+![Screenshot of deployed application](<images/Deployed application.png>)
 
 The current date should be displayed in the heading of the application. The current hour should be highlighted in red, future timeblocks will be highlighted green, and past timeblocks will be grey. 
 
