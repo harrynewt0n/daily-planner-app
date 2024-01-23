@@ -30,6 +30,17 @@ updateHour()
 
 // Allow user to save input to local storage- localstorage.setitem
 
+$('.saveBtn').on('click', function () {
+
+    var scheduleHour = $(this).siblings('.hour').text();
+    var userInput = $(this).siblings('textarea').val();
+
+    console.log(scheduleHour + '- ' + userInput);
+
+    localStorage.setItem(scheduleHour, userInput);
+
+    window.alert('Your task has been created!')
+})
 
 // Ensure that local storage remains on application text field- localstorage.getitem
 
